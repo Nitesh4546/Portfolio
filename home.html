@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2f2f2f;
+            color: #fff;
+            line-height: 1.6;
+            padding-top: 60px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #64d8b1;
+            color: #fff;
+            padding: 15px 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: #1e1e1e;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 8px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul a:hover {
+            background-color: #fff;
+            color: #64d8b1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-top: 100px;
+        }
+
+        .cont {
+            background-color: #f1c6a1;
+            border: 3px solid #00aaff;
+            border-radius: 15px;
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .cont:hover {
+            background-color: #71bdc1;
+            transform: translateY(-5px);
+        }
+
+        .cont p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-section {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        .content-section h2 {
+            color: #64d8b1;
+            margin-bottom: 10px;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+        }
+
+        .content-section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .content-section ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="home.html">
+                    <li>Welcome</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="https://imgs.search.brave.com/ssy18ckJ8p7L2U9KwK57Y5SgiuABQSrtCoyeUBIeKGs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzc5LzU1LzQ2/LzI0MF9GXzc5NTU0/NjkzX3JPMUtYazFL/eFpKWHBLRFRwVWoy/S0Q3NEVzQVJOdDA1/LmpwZw"
+            alt="Profile Image">
+
+        <div class="cont">
+            <p>Hello! I am Nitesh Nunia, and I welcome you to my Home page.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Welcome to My Personal Portfolio!</h2>
+            <p>Hi there! 👋 I'm <strong>Nitesh Nunia</strong>, a passionate Python developer and lifelong learner.
+                Welcome to my digital space, where I share my projects, achievements.</p>
+
+            <h2>About Me</h2>
+            <p>I specialize in <strong>Python development</strong>, but my curiosity doesn't stop there! I enjoy diving
+                into various fields like <strong>web development, data analysis, automation, and machine
+                    learning</strong>. My goal is to create meaningful solutions using technology that can make life a
+                bit easier and more interesting.</p>
+            <p>When I'm not coding, you can usually find me experimenting with new technologies, or learning something new that challenges my skills.</p>
+
+            <h2>What I Do</h2>
+            <p>I've worked on a variety of projects, including:</p>
+            <ul>
+                <li>Building web applications with frameworks like <strong>Flask</strong> and <strong>Django</strong>.
+                </li>
+                <li>Data analysis and visualization using Python libraries like <strong>Pandas, Matplotlib, and
+                        Seaborn</strong>.</li>
+                <li>Automating repetitive tasks to improve efficiency and save time.</li>
+            </ul>
+            <p>I'm always looking to learn more and take on new challenges. If you're interested in collaborating or
+                want to discuss technology and development, feel free to reach out!</p>
+
+            <h2>My Achievements</h2>
+            <p>In my journey as a developer, I've been fortunate enough to accomplish the following:</p>
+            <ul>
+                <li><strong>CS50P Certification</strong> - Completing the CS50P course by Harvard University has been an
+                    amazing experience. It gave me a deep understanding of computer science principles using Python.
+                </li>
+                <li><strong>Microsoft C# Developer Certification</strong> - Achieving a certification in C# from
+                    Microsoft helped me expand my knowledge and improve my problem-solving skills.</li>
+                <li><strong>FreeCodeCamp Data Analysis Certification</strong> - I completed the Data Analysis course and
+                    got certified by FreeCodeCamp, strengthening my ability to analyze and interpret data efficiently.
+                </li>
+            </ul>
+
+            <h2>Why I Do What I Do</h2>
+            <p>For me, programming is more than just writing code—it's about solving problems and creating something
+                that adds value. I am driven by the joy of learning new technologies, implementing creative solutions,
+                and working collaboratively with others to build something impactful.</p>
+            <p>Every line of code I write is an opportunity to grow, and I can't wait to see what the future holds as I
+                continue to explore new fields and ideas.</p>
+
+            <h2>Thank You For Visiting!</h2>
+            <p>I'm glad you're here! If you'd like to know more about my work or get in touch, feel free to explore my
+                <strong>portfolio</strong> or reach out to me directly. I love connecting with like-minded individuals
+                who are passionate about technology and learning.</p>
+            <p>Let's build something amazing together! 🚀</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
